@@ -1,3 +1,5 @@
+import math
+
 def es_primo(numero):               #Le metemos a la funcion es_primo el parametro numero
     contador = 0
 
@@ -13,7 +15,8 @@ def es_primo(numero):               #Le metemos a la funcion es_primo el paramet
 
 
 def run():
-    numero =  int(input('Escribe un numero: '))
+    numero = int(input('Escribe un numero: '))
+    numero = int(math.sqrt(numero))
     if es_primo(numero):                           #Esto es lo mismo que decir, if es_primo(numero) == true, pero como el resultado de la funcion
         print('Es primo')                          #es igual a True, podemos obviar preguntar si algo es igual a verdadero. Python entiende que lo
     else:                                          #que nosotros estamos preguntando, es si el resultado de esta funcion es igual a True, ejecuta
@@ -21,5 +24,5 @@ def run():
 
 
 
-if __name__ == __main__:
+if __name__ == '__main__':
     run()
