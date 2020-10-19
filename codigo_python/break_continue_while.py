@@ -21,6 +21,9 @@ def run():
 #    while numero2 <= numero:
 #        numero2 = int(input(str(numero2) + ' no es mayor que: ' + str(numero) + ' Intentalo de Nuevo: '))
 
+# salimos del ciclo e imprimimos el resultado (ojo para salir del ciclo tenemos
+# que salir de la identacion del numero2)
+
 #    print()
 #    print('Los numeros que has escrito son ' + str(numero) +' y ' + str(numero2))
 
