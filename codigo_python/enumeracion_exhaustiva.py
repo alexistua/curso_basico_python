@@ -7,7 +7,7 @@ def enumeracion_exhaustiva():
     respuesta = 0 #Generamos una respuesta con un valor inicial de cero, para que empezemos nuestro contador.
 
     while respuesta**2 < objetivo: #Mientras que la respuesta al cuadrado sea menor al numero al que le queremos sacar la raiz.
-        print(respuesta)
+        print(respuesta) #hacemos un print a respuesta para ver lo que se ejecuta en cada ciclo.
         respuesta +=1 #Aqui vamos aumentando el valor de la respuesta en 1, durante cada ciclo, es decir, 1*1, 2*2, 3*3, 4*4, 5*5, hasta llegar al objetivo encontremos la respuesta o nos demos cuenta que ese numero no tiene una raiz cuadrada exacta.
     
     if respuesta**2 == objetivo:
