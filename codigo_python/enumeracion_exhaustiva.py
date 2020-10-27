@@ -1,4 +1,4 @@
-#la enumeración exhaustiva es un tipo de algoritmo que tambien se le llama "adivina y verifica"
+#la enumeración exhaustiva es un tipo de algoritmo que tambien se le llama "adivina y verifica", es decir pruebalas todas hasta que la encuentres.
 #En este algoritmo se enumeran todas las posibilidades, para conseguir la aproximación a una respuesta.
 #Este es uno de los algoritmos mas importantes en la ciencia de la computación y tambien uno de los mas sencillos.
 #En este ejemplo vamos a tratar de determinar si un numero tiene una raiz cuadrada exacta.
