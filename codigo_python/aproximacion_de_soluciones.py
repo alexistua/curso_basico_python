@@ -21,7 +21,7 @@ def aproximacion():
         respuesta += paso   #En cada iteracion se sumamos el paso a la respuesta, es decir, le vamos aumentar en cada ciclo el paso,
                             #nuestra respuesta inicia en 0.01 y en cada iteracion(ciclo) le estamos subiendo el epsilon al cuadrado, hasta acercarnos a la respuesta.
 
-    if abs(respuesta**2 - objetivo) >= epsilon:                #si el valor absoluto de la respuest al cudrado menos el objetivo, es mayor o igual a epsilon.
+    if abs(respuesta**2 - objetivo) >= epsilon:                #si el valor absoluto de la respuesta al cudrado menos el objetivo, es mayor o igual a epsilon.
         print(f'No se encontro la raíz cudrada de {objetivo}') #si no llegamos a la solucion, mostramos al usuario en pantalla que no se encontro la respuesta.
     else:                                                      #De lo contrario, se encontro la respuesta y se muestra al usuario en pantalla.
         print(f'La raiz cuadrada de {objetivo} es {respuesta}')
